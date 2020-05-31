@@ -1,0 +1,10 @@
+---
+layout: none
+---
+[{% for post in site.posts %}{
+	"title": "{{post.title}}",
+	"link": "{{post.link}}",
+	"authors": "{{post.author}}",
+	"summary": "{{post.summary}}",
+	"original": "{{ post.original}}"
+}{% if forloop.rindex0 > 0 %},{% endif %}{% endfor %}]
