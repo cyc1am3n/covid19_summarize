@@ -1,9 +1,0 @@
-title: COVID Paper Summarization
-email: kantori321@korea.ac.kr
-description: >- # this means to ignore newlines until "baseurl:"
-  This page is summary results of the COVID19 related papers made by a T5-small model.
-baseurl: "/covid19_summarize/" #"/covid_sum" # the subpath of your site, e.g. /blog
-url: "https://cyc1am3n.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  cyc1am3n
-
-permalink: /:title.html
