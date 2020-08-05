@@ -1,0 +1,2 @@
+#! /bin/bash
+python model/finetune.py --data_dir=./data/cnn_dm/cnn_dm --model_type=t5 --model_name_or_path=t5-small --learning_rate=3e-5 --train_batch_size=4 --eval_batch_size=4 --output_dir=./output/test --ckpt_dir=./output/ckpt --num_train_epochs=5 --do_train
